@@ -1,8 +1,8 @@
+.chrome-ref/
+.tools/
+.git/
+.vercel/
 node_modules/
 dist/
 data/bookings.json
-.env
 *.log
-.chrome-ref/
-.tools/
-.vercel
