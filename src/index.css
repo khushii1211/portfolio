@@ -33,6 +33,7 @@
 @keyframes reference-copy-in{from{opacity:0;transform:translateY(calc(-43% + 20px))}to{opacity:1;transform:translateY(-43%)}}
 @keyframes scroll-line{0%{transform:translateX(-105%)}55%,100%{transform:translateX(105%)}}
 @media(max-width:700px){.hero{height:88svh;min-height:600px}.hero-copy{left:22px;width:calc(100% - 44px);top:47%;transform:translateY(-40%)}.hero h1{font-size:clamp(43px,13vw,66px);white-space:normal;line-height:.88}.hero-intro{font-size:11px;line-height:1.65;max-width:92%}.hero-role{font-size:7px;letter-spacing:.19em}.hero-actions{gap:22px}.hero-primary{padding:12px 18px}.hero-scroll{left:22px}.hero-dots{right:22px}.hero-shade{background:linear-gradient(90deg,rgba(5,5,4,.82),rgba(7,6,5,.25)),linear-gradient(0deg,rgba(4,4,3,.56),transparent 55%)}.hero-slides .hero-slide{object-position:58% top}.nav{padding:0 22px}}
+.form-honeypot{position:absolute!important;left:-10000px!important;width:1px!important;height:1px!important;overflow:hidden!important}
 @media(prefers-reduced-motion:reduce){.hero-slides .hero-slide.active,.hero-copy,.hero-scroll i:after{animation:none!important}}
 
 /* Header without left wordmark */

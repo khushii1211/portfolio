@@ -9,13 +9,24 @@ npm install
 npm run dev
 ```
 
-The website runs at `http://localhost:5173` and the booking API at `http://localhost:3001`.
+The website runs at `http://localhost:5173` and the local booking API at `http://localhost:3001`.
 
-## Production
+## Production on Vercel
+
+The production booking endpoint is the Vercel function at `api/bookings.js`. It sends each inquiry through [Resend](https://resend.com).
+
+Configure these environment variables in the Vercel project before deploying:
+
+```text
+RESEND_API_KEY=re_...
+BOOKING_TO_EMAIL=chauhan.khushi.1211@gmail.com
+BOOKING_FROM_EMAIL=Portfolio Bookings <bookings@your-verified-domain.com>
+```
+
+`BOOKING_TO_EMAIL` and `BOOKING_FROM_EMAIL` have defaults, but a Resend API key is required. For production delivery, use a sender address on a domain verified in Resend. Redeploy after changing environment variables.
+
+Build the site with:
 
 ```bash
 npm run build
-npm run preview
 ```
-
-The Vite base path is configured for GitHub Pages at `/khushi-model-portfolio/`. The Express API must be hosted separately for live booking submissions.
