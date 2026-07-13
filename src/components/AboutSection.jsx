@@ -10,7 +10,7 @@ export default function AboutSection() {
       <p className="section-no">01 / Meet Khushi</p>
       <p className="about-kicker">Model · Creative · Storyteller</p>
       <h2>More than<br/>a face in the<br/><em>frame.</em></h2>
-      <p className="about-intro">I’m Khushi Chauhan, a fashion and commercial model based in Rajkot.</p>
+      <p className="about-intro">I’m a fashion and commercial model based in Rajkot.</p>
       <p>My work moves between modern editorials and the rich visual language of Indian couture. I love transforming a creative direction into images that feel expressive, elegant and memorable.</p>
       <div className="about-meta"><span><small>Based in</small>Rajkot, India</span><span><small>Available for</small>India & worldwide</span></div>
     </div>
