@@ -4,3 +4,4 @@ data/bookings.json
 .env
 *.log
 .chrome-ref/
+.tools/
