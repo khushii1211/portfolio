@@ -3,10 +3,9 @@ export const portfolioImages = [
   ['bridal3.PNG', 'Bridal', 'Quiet Radiance'], ['bridal4.PNG', 'Bridal', 'Golden Vows'],
   ['ethenic.png', 'Ethnic', 'Crimson Story'], ['ethenic1.jpeg', 'Ethnic', 'Regal Poise'],
   ['ethenic2.jpeg', 'Ethnic', 'Heritage Edit'], ['ethenic3.PNG', 'Ethnic', 'Festive Light'],
-  ['jwellery1.jpeg', 'Jewellery', 'Sculpted Gold'], ['jwellery2.jpeg', 'Jewellery', 'Royal Details'],
-  ['jwellery3.jpeg', 'Jewellery', 'Heirloom'], ['western1.PNG', 'Editorial', 'After Hours'],
-  ['western2.PNG', 'Editorial', 'City Muse'], ['western3.PNG', 'Lifestyle', 'Soft Focus'],
-  ['western4.PNG', 'Lifestyle', 'Modern Ease'], ['catelog2.jpeg', 'Commercial', 'The Catalogue Edit'],
+  ['western1.PNG', 'Western', 'After Hours'], ['western2.PNG', 'Western', 'City Muse'],
+  ['western3.PNG', 'Western', 'Soft Focus'], ['western4.PNG', 'Western', 'Modern Ease'],
+  ['western5.PNG', 'Western', 'Desert Glow'], ['western6.png', 'Western', 'Sundown Silhouette'],
 ]
 
-export const portfolioFilters = ['All', 'Bridal', 'Ethnic', 'Jewellery', 'Editorial', 'Lifestyle', 'Commercial']
+export const portfolioFilters = ['All', 'Bridal', 'Ethnic', 'Western']
